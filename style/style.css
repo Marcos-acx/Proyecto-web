@@ -228,7 +228,7 @@ body {
     width: 20vh;
     border: solid 1px #a731d250;
 }
-#footer {
+.footer {
     background-color: #0585b8;
     padding-left: 3%;
     padding-right: 3%;
