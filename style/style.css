@@ -346,6 +346,9 @@ body {
     }
 }
 @media (max-width: 768px) {
+    .body{
+        overflow-x: hidden;
+    }
     .header-1{
         flex-direction: column;
         height: auto;
