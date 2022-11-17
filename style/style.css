@@ -346,9 +346,6 @@ body {
     }
 }
 @media (max-width: 768px) {
-    .body{
-        overflow-x: hidden;
-    }
     .header-1{
         flex-direction: column;
         height: auto;
@@ -376,7 +373,7 @@ body {
         display: block;
     }
     .header-menu{
-        padding-bottom: 45px;
+        padding-bottom: 47px;
     }
     .header-menu ul{
         display: flex;
@@ -416,9 +413,6 @@ body {
     .marcas-flex__img{
         height: 95px;
     }
-    .nov{
-        width: 105%;
-    }
     .col .card{
         margin-top: 10px;
         width: 170px;
@@ -430,9 +424,6 @@ body {
     }
     .card button{
         font-size: 26px;
-    }
-    .footer{
-        width: 103%;
     }
     .footer-menu{
         display: flex;
