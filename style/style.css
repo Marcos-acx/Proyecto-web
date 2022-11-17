@@ -346,6 +346,9 @@ body {
     }
 }
 @media (max-width: 768px) {
+    .body{
+        overflow-x: hidden;
+    }
     .header-1{
         flex-direction: column;
         height: auto;
@@ -395,11 +398,12 @@ body {
     }
     .slider{
         margin-inline: auto;
-        margin: 190px 0 0 13px;
+        margin: 190px 0 0 0;
         border: none;
     }
     .carousel-item img{
         padding: 0%;
+        padding-inline: 7px;
     }
     .slider:hover{
         box-shadow: none;
