@@ -9,6 +9,7 @@
 }
 body {
     background: linear-gradient(rgb(21, 14, 37), #082071, #F000DB);
+    overflow-anchor: hidden;
     overflow-x: hidden;
 }
 .header {
@@ -347,9 +348,6 @@ body {
     }
 }
 @media (max-width: 768px) {
-    body{
-        overflow-x: hidden;
-    }
     .header-1{
         flex-direction: column;
         height: auto;
