@@ -346,7 +346,7 @@ body {
     }
 }
 @media (max-width: 768px) {
-    .body{
+    body{
         overflow-x: hidden;
     }
     .header-1{
