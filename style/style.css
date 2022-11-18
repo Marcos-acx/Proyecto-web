@@ -9,8 +9,6 @@
 }
 body {
     background: linear-gradient(rgb(21, 14, 37), #082071, #F000DB);
-    overflow-x: hidden;
-    width: 100vw;
 }
 .header {
     position: fixed;
@@ -181,7 +179,7 @@ body {
 }
 .nov {
     align-items: center;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     border-top: 1px solid #181341;
@@ -349,11 +347,11 @@ body {
 }
 @media (max-width: 768px) {
     body{
-        width: 100vw;
-        overflow-x: hidden;
+        align-items: center;
+        align-content: center;
     }
     .header{
-        width: 100vw;
+        width: 100%;
     }
     .header-1{
         width: 100%;
