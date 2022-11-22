@@ -40,186 +40,195 @@
             </ul>
         </nav>
     </header>
-    <div class="grilla_produc">
-        <div class="categorias">
-            <ul>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Procesadores</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">Intel</a></li>
-                        <li><a href="" class="categoria__hijo">AMD</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Placas de video</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">Nvidia</a></li>
-                        <li><a href="" class="categoria__hijo">AMD</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Memorias ram</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">DDR4</a></li>
-                        <li><a href="" class="categoria__hijo">DDR5</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Almacenamiento</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">SSD</a></li>
-                        <li><a href="" class="categoria__hijo">HDD</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Refrigeración</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">Por aire</a></li>
-                        <li><a href="" class="categoria__hijo">Líquida</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Gabinetes</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">ATX</a></li>
-                        <li><a href="" class="categoria__hijo">Mini ATX</a></li>
-                        <li><a href="" class="categoria__hijo">ITX</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Fuentes de poder</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">650W</a></li>
-                        <li><a href="" class="categoria__hijo">750W</a></li>
-                        <li><a href="" class="categoria__hijo">850W</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Monitores</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">1080p</a></li>
-                        <li><a href="" class="categoria__hijo">1440p</a></li>
-                        <li><a href="" class="categoria__hijo">2160p</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Mouses</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">Inalámbricos</a></li>
-                        <li><a href="" class="categoria__hijo">Con cable</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Teclados</a>
-                    <ul>
-                        <li><a href="" class="categoria__hijo">Membrana</a></li>
-                        <li><a href="" class="categoria__hijo">Mecáncios</a></li>
-                    </ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Auriculares</a>
-                    <ul></ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Wifi</a>
-                    <ul></ul>
-                </li>
-                <li class="categorias-item">
-                    <a href="" class="categoria__padre">Cables</a>
-                    <ul></ul>
-                </li>
-            </ul>
-        </div>
-        <div class="main">
-            <div class="ordenar">
-                <select name="ordenar-por" id="mayor-menor">
-                    <option value="precio">Precio</option>
-                    <option value="relevancia">Relevancia</option>
-                    <option value="antiguedad">Antigüedad</option>
-                </select>
-                <div class="mayor-menor">
-                    <p>Mayor a menor</p>
-                    <input type="checkbox" name="ordenar" value="1">
-                    <p>Menor a mayor</p>
-                    <input type="checkbox" name="ordenar" value="1">
+    <main>
+        <div class="grilla_produc">
+            <div class="categorias">
+                <input type="checkbox" id="check-cat">
+                    <label for="check-cat" class="checkcat">
+                        <p>Categorias</p>
+                        <i class="fa-solid fa-list-ul"></i>
+                    </label>
+                <ul class="cat-lista">
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Procesadores</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">Intel</a></li>
+                            <li><a href="" class="categoria__hijo">AMD</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Placas de video</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">Nvidia</a></li>
+                            <li><a href="" class="categoria__hijo">AMD</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Memorias ram</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">DDR4</a></li>
+                            <li><a href="" class="categoria__hijo">DDR5</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Almacenamiento</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">SSD</a></li>
+                            <li><a href="" class="categoria__hijo">HDD</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Refrigeración</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">Por aire</a></li>
+                            <li><a href="" class="categoria__hijo">Líquida</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Gabinetes</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">ATX</a></li>
+                            <li><a href="" class="categoria__hijo">Mini ATX</a></li>
+                            <li><a href="" class="categoria__hijo">ITX</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Fuentes de poder</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">650W</a></li>
+                            <li><a href="" class="categoria__hijo">750W</a></li>
+                            <li><a href="" class="categoria__hijo">850W</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Monitores</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">1080p</a></li>
+                            <li><a href="" class="categoria__hijo">1440p</a></li>
+                            <li><a href="" class="categoria__hijo">2160p</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Mouses</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">Inalámbricos</a></li>
+                            <li><a href="" class="categoria__hijo">Con cable</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Teclados</a>
+                        <ul>
+                            <li><a href="" class="categoria__hijo">Membrana</a></li>
+                            <li><a href="" class="categoria__hijo">Mecáncios</a></li>
+                        </ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Auriculares</a>
+                        <ul></ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Wifi</a>
+                        <ul></ul>
+                    </li>
+                    <li class="categorias-item">
+                        <a href="" class="categoria__padre">Cables</a>
+                        <ul></ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="ordenar">
+                    <p>Ordenar por:</p>
+                    <select name="ordenar-por" id="ordenar-por" class="ordenar-por">
+                        <option value="precio">Precio</option>
+                        <option value="relevancia">Relevancia</option>
+                        <option value="antiguedad">Antigüedad</option>
+                    </select>
+                    <p>Orden:</p>
+                    <select name="mayor-menor" id="mayor-menor" class="mayor-menor">
+                        <option value="Descendiente">Descendiente</option>
+                        <option value="Ascendente">Ascendente</option>
+                    </select>
+                </div>
+                <div class="productos">
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="../imagenes/producto-ej.png" alt="inteli7">
+                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
+                        <p class="nov-lista-prod__precio">$12345</p>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="productos">
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/producto-ej.png" alt="inteli7">
-                    <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                    <p class="nov-lista-prod__precio">$12345</p>
-                    <button><i class="fa-solid fa-cart-plus"></i></button>
-                </div>
-            </div>
         </div>
-    </div>
+    </main>
     <footer class="footer">
         <nav class="footer-menu">
             <ul class="foot-bl1">
@@ -244,5 +253,9 @@
             </ul>
         </nav>
     </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
