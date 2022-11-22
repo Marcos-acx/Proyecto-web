@@ -811,7 +811,6 @@ ul .categoria__hijo{
     .header-menu ul li{
         text-align: center;
         border-bottom: solid 1.5px #0A172D;
-        padding-right: 30px;
     }
     #check:checked ~ ul{
         left: auto;
