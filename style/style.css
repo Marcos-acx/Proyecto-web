@@ -9,7 +9,7 @@
 }
 body {
     /* background: linear-gradient(rgb(21, 14, 37), #082071, #F000DB); */
-    background: radial-gradient(circle, #77086e 0%, #082071 38%, rgb(21, 14, 37) 100%);
+    background: radial-gradient(circle, #16144d 0%, #140236 38%, rgb(0, 0, 0) 100%);
     background-attachment: fixed;
     overflow-x: hidden;
 }
@@ -24,7 +24,7 @@ body {
     box-shadow: 0 0 10px rgb(21, 107, 168);
 }
 .header-1 {
-    background-color: #0A172D;
+    background-color: #080b22;
     height: 87px;
     display: flex;
     flex-direction: row;
@@ -133,10 +133,12 @@ body {
 }
 .marcas h2 {
     font-family: neon;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-shadow: 0 2px 9px rgb(166, 51, 184);
+    color: rgb(227, 93, 242);
     font-size: 50px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color: #b009ed;
+    text-align: center;
     transition: 0.4s;
 }
 .marcas h2:hover {
@@ -174,12 +176,13 @@ body {
 }
 .nov__title {
     font-family: neon;
-    font-size: 50px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color: #b92bc9;
     margin-top: 15px;
-    margin-bottom: 3%;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-shadow: 0 2px 9px rgb(166, 51, 184);
+    color: rgb(227, 93, 242);
+    font-size: 50px;
+    text-align: center;
     transition: 0.4s;
 }
 .nov__title:hover {
@@ -484,7 +487,7 @@ form{
 .cat-lista{
     padding: 10px 20px 0 0;
     height: 100%;
-    background-color: #864be4ca;
+    background-color: #722cceca;
     border-right: 1px solid rgb(96, 189, 194);
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
