@@ -1,0 +1,54 @@
+.card.prod {
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(#3b2063bc, #0f3580);
+    width: 180px;
+    height: 365px;
+    margin-left: 20px;
+    margin-top: 14px;
+    border-radius: 0;
+    border: solid 1.5px #20a6cb;
+    box-shadow: 0 2px 4px black;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    button{
+        font-size: 30px;
+        padding-bottom: 10px;
+        border: none;
+        background-color: transparent;
+        color: #f9f9f986;
+        position: absolute;
+        bottom: 3px;
+        &:hover {
+            color: rgb(255, 255, 255);
+        }
+    }
+    .lista-prod__nombre {
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+        position: absolute;
+        top: 150px;
+        font-weight: lighter;
+    }
+    .lista-prod__precio {
+        padding: 5%;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: 35px;
+    }
+    .comp {
+        position: absolute;
+        bottom: 110px;
+        font-size: 16px;
+    }
+    img {
+        margin-top: 10px;
+        cursor: pointer;
+        margin-bottom: 18px;
+        width: 140px;
+        max-height: 140px;
+    }
+}

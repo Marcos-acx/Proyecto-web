@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyberTech | Productos</title>
-    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../SASS/main.css">
     <link rel="stylesheet" href="../style/iconos-fontawesome/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -20,6 +20,7 @@
     <meta name="description" content="Ofrecemos componentes tecnologicos al mejor precio del mercado.">
 </head>
 <body class="body_productos">
+    <!-- Header -->
     <header class="header">
         <div class="header-1">
             <h1><a href="../index.html" target="_self" id="header-logo">CyberTech</a></h1>
@@ -44,6 +45,7 @@
     </header>
     <main>
         <div class="grilla_produc">
+            <!-- Tabla de categorias -->
             <div class="categorias">
                 <input type="checkbox" id="check-cat">
                     <label for="check-cat" class="checkcat">
@@ -139,6 +141,7 @@
                 </ul>
             </div>
             <div class="main">
+                <!-- Ordenamiento de productos -->
                 <div class="ordenar">
                     <p>Ordenar por:</p>
                     <select name="ordenar-por" id="ordenar-por" class="ordenar-por">
@@ -152,85 +155,97 @@
                         <option value="Ascendente">Ascendente</option>
                     </select>
                 </div>
+                <!-- Tabla de productos -->
                 <div class="productos">
-                    <div class="card">
+                    <div class="card prod">
                         <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                        <p class="nov-lista-prod__nombre">Intel i5 11600k</p>
+                        <p class="nov-lista-prod__precio">$55.000</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/producto-ej4.png" alt="inteli7">
+                        <p class="lista-prod__nombre">Kingston Hyperx Cloud ii</p>
+                        <p class="lista-prod__precio">$17.000</p>
+                        <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card prod">
+                        <img src="../imagenes/producto-ej5.png" alt="inteli7">
+                        <p class="lista-prod__nombre">Nvidia Geforce GTX 1050ti Gigabyte</p>
+                        <p class="lista-prod__precio">$45.700</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/producto-ej3.png" alt="2x8GB-ram-Hyperx-Fury">
+                        <p class="lista-prod__nombre">2x8 GB Ram ddr4 Hyperx Fury 2666Mhz</p>
+                        <p class="lista-prod__precio">$14.500</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/ram-gskill.png" alt="">
+                        <p class="lista-prod__nombre">2x8 GB Ram G-Skill Patriot TridentZ 3200Mhz</p>
+                        <p class="lista-prod__precio">$18.560</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/producto-ej2.png" alt="inteli7">
+                        <p class="lista-prod__nombre">AMD Ryzen 5 5600G</p>
+                        <p class="lista-prod__precio">$55.350</p>
+                        <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card prod">
+                        <img src="../imagenes/ram-vengance.png" alt="">
+                        <p class="lista-prod__nombre">1x16 GB Ram Corsair Vengance Led</p>
+                        <p class="lista-prod__precio">$15.000</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/ram-gskill32.png" alt="">
+                        <p class="lista-prod__nombre">4x8 GB Ram G-Skill Patriot TridentZ 3200Mhz</p>
+                        <p class="lista-prod__precio">$38.000</p> 
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/ram-spectrix_d50_rog.png" alt="">
+                        <p class="lista-prod__nombre">2x8 GB Ram XPG Spectrix Rog 3600Mhz</p>
+                        <p class="lista-prod__precio">$22.340</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/producto-ej1.png" alt="inteli7">
+                        <p class="lista-prod__nombre">Gigabyte x399 Aorus Gaming 7</p>
+                        <p class="lista-prod__precio">$26.230</p>
+                        <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="card prod">
+                        <img src="../imagenes/ram-xpg_ddr5.png" alt="">
+                        <p class="lista-prod__nombre">1x16 GB Ram Caster RGB DDR5 7000Mhz</p>
+                        <p class="lista-prod__precio">$32.000</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/ram-xpg_gammixd45.png" alt="">
+                        <p class="lista-prod__nombre">1x8 GB Ram XPG Gammix D45 3600Mhz</p>
+                        <p class="lista-prod__precio">$19.000</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/ram-xpg_spectrixd60.png" alt="">
+                        <p class="lista-prod__nombre">1x16 GB Ram Spectrix D60 CL 14</p>
+                        <p class="lista-prod__precio">$24.000</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
+                    <div class="card prod">
+                        <img src="../imagenes/ram-xpg_gammixd30.png" alt="">
+                        <p class="lista-prod__nombre">1x16 GB Ram XPG Gammix D30 2666Mhz</p>
+                        <p class="lista-prod__precio">$15.000</p>
                         <button><i class="fa-solid fa-cart-plus"></i></button>
-                    </div>
-                    <div class="card">
-                        <img src="../imagenes/producto-ej.png" alt="inteli7">
-                        <p class="nov-lista-prod__nombre">Nombre del producto</p>
-                        <p class="nov-lista-prod__precio">$12345</p>
-                        <button><i class="fa-solid fa-cart-plus"></i></button>
-                    </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <!-- Footer -->
     <footer class="footer">
         <nav class="footer-menu">
             <ul class="foot-bl1">

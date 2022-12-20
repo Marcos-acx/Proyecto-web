@@ -197,15 +197,12 @@
         }
     }
     .productos.nov{
+        margin-inline: auto;
         .card {
-            margin: 0;
+            margin: auto;
             margin-top: 10px;
-            width: 80vw;
+            width: 70vw;
             font-size: 20px;
-            img {
-                height: auto;
-                width: auto;
-            }
             button {
                 font-size: 26px;
             }

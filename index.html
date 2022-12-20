@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyberTech</title>
-    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./SASS/main.css">
     <link rel="stylesheet" href="./style/iconos-fontawesome/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -44,104 +44,106 @@
         </nav>
     </header>
     <!-- Slider de imágenes -->
-    <div class="slider">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button  type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button  type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button  type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./imagenes/img-ej1.jpg" class="d-block w-100" alt="evga">
+    <main>
+        <div class="slider">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button  type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button  type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button  type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/img-ej1.jpg" class="d-block w-100" alt="evga">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/img-ej2.jpg" class="d-block w-100" alt="motherboard">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/img-ej3.jpg" class="d-block w-100" alt="intel">
+                  </div>
+                </div>
+                <button  class="carousel-control-prev" type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button  class="carousel-control-next" type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <div class="carousel-item">
-                <img src="./imagenes/img-ej2.jpg" class="d-block w-100" alt="motherboard">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/img-ej3.jpg" class="d-block w-100" alt="intel">
-              </div>
-            </div>
-            <button  class="carousel-control-prev" type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button  class="carousel-control-next" type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div>
-    <!-- Tabla de marcas -->
-    <section class="marcas" data-aos="fade-up" data-aos-offset="120">
-        <h2 class="marcas__title">Marcas</h2>
-        <div class="marcas-flex">
-            <img src="./imagenes/nvidia.png" alt="img-nvidia_ej" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
-            <img src="./imagenes/amd.png" alt="img-amd_ej1" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
-            <img src="./imagenes/nvidia.png" alt="img-nvidia_ej" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
-            <img src="./imagenes/amd.png" alt="img-amd_ej1" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
-            <img src="./imagenes/nvidia.png" alt="img-nvidia_ej" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
-            <img src="./imagenes/amd.png" alt="img-amd_ej1" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
-            <img src="./imagenes/nvidia.png" alt="img-nvidia_ej" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
-            <img src="./imagenes/amd.png" alt="img-amd_ej1" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
         </div>
-    </section>
-    <!-- Lista de novedades -->
-    <div class="novedades" data-aos="fade-up" data-aos-offset="150">
-        <h2 class="nov__title">Novedades</h2>
-        <div class="container productos nov">
-            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-6">
-                <div class="col">
-                    <div class="card">
-                        <img src="./imagenes/producto-ej.png" alt="inteli7">
-                        <p class="lista-prod__nombre">Nombre del producto</p>
-                        <p class="lista-prod__precio">$12345</p>
-                        <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+        <!-- Tabla de marcas -->
+        <section class="marcas" data-aos="fade-up" data-aos-offset="120">
+            <h2 class="marcas__title">Marcas</h2>
+            <div class="marcas-flex">
+                <img src="./imagenes/nvidia.png" alt="img-nvidia_ej" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
+                <img src="./imagenes/amd.png" alt="img-amd_ej1" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
+                <img src="./imagenes/nvidia.png" alt="img-nvidia_ej" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
+                <img src="./imagenes/amd.png" alt="img-amd_ej1" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
+                <img src="./imagenes/nvidia.png" alt="img-nvidia_ej" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
+                <img src="./imagenes/amd.png" alt="img-amd_ej1" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
+                <img src="./imagenes/nvidia.png" alt="img-nvidia_ej" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
+                <img src="./imagenes/amd.png" alt="img-amd_ej1" class="marcas-flex__img" data-aos="fade-up" data-aos-offset="170">
+            </div>
+        </section>
+        <!-- Lista de novedades -->
+        <div class="novedades" data-aos="fade-up" data-aos-offset="150">
+            <h2 class="nov__title">Novedades</h2>
+            <div class="container productos nov">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-xl-6">
+                    <div class="col">
+                        <div class="card prod">
+                            <img src="./imagenes/producto-ej.png" alt="inteli7">
+                            <p class="lista-prod__nombre">Intel I5 11600k</p>
+                            <p class="lista-prod__precio">$50.500</p>
+                            <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="./imagenes/producto-ej.png" alt="inteli7">
-                        <p class="lista-prod__nombre">Nombre del producto</p>
-                        <p class="lista-prod__precio">$12345</p>
-                        <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                    <div class="col">
+                        <div class="card prod">
+                            <img src="./imagenes/producto-ej1.png" alt="inteli7">
+                            <p class="lista-prod__nombre">Gigabyte x399 Aorus Gaming 7</p>
+                            <p class="lista-prod__precio">$26.230</p>
+                            <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="./imagenes/producto-ej.png" alt="inteli7">
-                        <p class="lista-prod__nombre">Nombre del producto</p>
-                        <p class="lista-prod__precio">$12345</p>
-                        <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                    <div class="col">
+                        <div class="card prod">
+                            <img src="./imagenes/producto-ej2.png" alt="inteli7">
+                            <p class="lista-prod__nombre">AMD Ryzen 5 5600G</p>
+                            <p class="lista-prod__precio">$55.350</p>
+                            <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="./imagenes/producto-ej.png" alt="inteli7">
-                        <p class="lista-prod__nombre">Nombre del producto</p>
-                        <p class="lista-prod__precio">$12345</p>
-                        <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                    <div class="col">
+                        <div class="card prod">
+                            <img src="./imagenes/producto-ej3.png" alt="inteli7">
+                            <p class="lista-prod__nombre">2x8 GB Ram ddr4 Hyperx Fury 2666Mhz</p>
+                            <p class="lista-prod__precio">$14.500</p>
+                            <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="./imagenes/producto-ej.png" alt="inteli7">
-                        <p class="lista-prod__nombre">Nombre del producto</p>
-                        <p class="lista-prod__precio">$12345</p>
-                        <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                    <div class="col">
+                        <div class="card prod">
+                            <img src="./imagenes/producto-ej4.png" alt="inteli7">
+                            <p class="lista-prod__nombre">Kingston Hyperx Cloud ii</p>
+                            <p class="lista-prod__precio">$17.000</p>
+                            <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="./imagenes/producto-ej.png" alt="inteli7">
-                        <p class="lista-prod__nombre">Nombre del producto</p>
-                        <p class="lista-prod__precio">$12345</p>
-                        <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                    <div class="col">
+                        <div class="card prod">
+                            <img src="./imagenes/producto-ej5.png" alt="inteli7">
+                            <p class="lista-prod__nombre">Nvidia Geforce GTX 1050ti Gigabyte</p>
+                            <p class="lista-prod__precio">$45.700</p>
+                            <button class="button"><i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
     <!-- Footer -->
     <footer class="footer">
         <nav class="footer-menu">

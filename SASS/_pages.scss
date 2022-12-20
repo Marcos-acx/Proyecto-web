@@ -107,40 +107,6 @@ body {
     .productos.nov{
         background-color: transparent;
         border: none;
-        .card {
-            text-align: center;
-            align-items: center;
-            button{
-                font-size: 30px;
-                padding-bottom: 10px;
-                border: none;
-                background-color: transparent;
-                color: #f9f9f986;
-
-                &:hover {
-                    color: rgb(255, 255, 255);
-                }
-            }
-            .lista-prod__nombre {
-                cursor: pointer;
-                color: rgb(255, 255, 255);
-                font-size: 20px;
-                font-weight: lighter;
-            }
-            .lista-prod__precio {
-                padding: 5%;
-                font-size: 25px;
-                color: rgb(255, 255, 255);
-                letter-spacing: 1px;
-            }
-
-            img {
-                cursor: pointer;
-                margin-top: 8px;
-                width: 140px;
-                border: solid 1px #a731d250;
-            }
-        }
     }
 }
 
@@ -362,7 +328,6 @@ body {
 /* Productos */
 
 .body_productos{
-    font-family: 'Ubuntu', sans-serif;
     background-image: url("../imagenes/fondo4.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -370,7 +335,7 @@ body {
     background-size: cover;
     backdrop-filter: blur(5px);
     background-color: #2f2e042e;
-    font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 .checkcat{
     cursor: pointer;
@@ -445,44 +410,6 @@ body {
     margin-inline: 5%;
     margin-top: 3%;
     padding-bottom: 40px;
-
-    .card {
-        background: linear-gradient(#3b206379, #0f3580d8);
-        width: 180px;
-  /*       margin-left: 0S; */
-        margin-top: 14px;
-        border-radius: 0;
-        border: solid 1.5px #20a6cb;
-        align-items: center;
-        box-shadow: 0 2px 4px black;
-        font-family: 'Montserrat';
-        font-weight: bold;
-
-        &:hover {
-            box-shadow: 0 0 10px #20a6cb;
-        }
-
-        p {
-            color: rgb(103, 233, 239);
-        }
-        .nov-lista-prod__nombre{
-            cursor: pointer;
-        }
-        img {
-            width: 120px;
-        }
-        button{
-            font-size: 30px;
-            padding-bottom: 10px;
-            border: none;
-            background-color: transparent;
-            color: #f9f9f986;
-
-            &:hover {
-                color: rgb(255, 255, 255);
-            }
-        }
-    }
 }
 
 /* Arma tu pc */
@@ -506,7 +433,7 @@ body {
         align-items: center;
         background-color: #0a172d6f;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.445);
-
+        text-align: center;
         .comp-title{
             font-family: neon;
             font-weight: bold;
@@ -535,7 +462,22 @@ body {
                     background-color: #48256646;
                     box-shadow: 0 0 7px #9d43cd81;
                 }
+                &.cpu {
+                    border: solid 1px rgb(46, 212, 37);
+                }
+                &.mother {
+                    border: solid 1px rgb(46, 212, 37);
+                }
+                &.ram {
+                    border: solid 2px rgb(30, 216, 230);
+                    box-shadow:  0 0 2px #14caeb;
+                }
             }
+        }
+        h2.comp-name {
+            font-family: neon;
+            color: rgb(106, 211, 252);
+            font-size: 30px;
         }
     }
     .productos-comp{
@@ -571,7 +513,7 @@ body {
                     padding-bottom: 10px;
                     border: none;
                     background-color: transparent;
-                    color: #f9f9f986;
+                    color: #f9f9f9;
     
                     &:hover {
                         color: rgb(255, 255, 255);
