@@ -495,6 +495,9 @@ body {
   margin-top: 3%;
   padding-bottom: 40px;
 }
+.productos .card.prod {
+  margin-left: 20px;
+}
 
 /* Arma tu pc */
 .body_armapc {
@@ -578,25 +581,27 @@ body {
   color: rgb(230, 94, 245);
   text-shadow: 0 2px 3px rgba(165, 83, 174, 0.542);
 }
-.arma-pc .productos-comp .productos.container .card {
+.arma-pc .productos-comp .productos.container .card.prod {
   width: 100%;
   font-size: 20px;
+  margin: 0%;
+  margin-bottom: 16px;
 }
-.arma-pc .productos-comp .productos.container .card .comp {
+.arma-pc .productos-comp .productos.container .card.prod .comp {
   color: rgb(15, 246, 15);
   letter-spacing: 2px;
 }
-.arma-pc .productos-comp .productos.container .card img {
-  width: 150px;
+.arma-pc .productos-comp .productos.container .card.prod .img {
+  height: 150px;
 }
-.arma-pc .productos-comp .productos.container .card button {
+.arma-pc .productos-comp .productos.container .card.prod button {
   font-size: 30px;
   padding-bottom: 10px;
   border: none;
   background-color: transparent;
   color: #f9f9f9;
 }
-.arma-pc .productos-comp .productos.container .card button:hover {
+.arma-pc .productos-comp .productos.container .card.prod button:hover {
   color: rgb(255, 255, 255);
 }
 .arma-pc .info-pc {
@@ -984,28 +989,26 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .grilla_produc .productos .card {
+  .grilla_produc .productos .card.prod {
     width: 80vw;
     padding-block: 10px;
+    margin-left: 0;
   }
-  .grilla_produc .productos .card img {
-    height: 120px;
-  }
-  .grilla_produc .productos .card .nov-lista-prod__nombre {
+  .grilla_produc .productos .card.prod .nov-lista-prod__nombre {
     font-size: 24px;
   }
-  .grilla_produc .productos .card .nov-lista-prod__precio {
+  .grilla_produc .productos .card.prod .nov-lista-prod__precio {
     font-size: 20px;
     letter-spacing: 1px;
   }
-  .grilla_produc .productos .card button {
+  .grilla_produc .productos .card.prod button {
     font-size: 30px;
     padding-bottom: 10px;
     border: none;
     background-color: transparent;
     color: rgba(249, 249, 249, 0.5254901961);
   }
-  .grilla_produc .productos .card button:hover {
+  .grilla_produc .productos .card.prod button:hover {
     color: rgb(255, 255, 255);
   }
   /* Arma tu pc */
@@ -1025,7 +1028,6 @@ body {
   background: linear-gradient(rgba(59, 32, 99, 0.737254902), #0f3580);
   width: 180px;
   height: 365px;
-  margin-left: 20px;
   margin-top: 14px;
   border-radius: 0;
   border: solid 1.5px #20a6cb;

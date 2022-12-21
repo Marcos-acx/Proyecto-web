@@ -410,6 +410,9 @@ body {
     margin-inline: 5%;
     margin-top: 3%;
     padding-bottom: 40px;
+    .card.prod {
+        margin-left: 20px;
+    }
 }
 
 /* Arma tu pc */
@@ -497,16 +500,17 @@ body {
             }
         }
         .productos.container{
-            .card{
+            .card.prod{
                 width: 100%;
                 font-size: 20px;
-
+                margin: 0%;
+                margin-bottom: 16px;
                 .comp{
                     color: rgb(15, 246, 15);
                     letter-spacing: 2px;
                 }
-                img {
-                    width: 150px;
+                .img {
+                    height: 150px;
                 }
                 button{
                     font-size: 30px;
